@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(105, 228, 228);
+    font-size: 20px;
+    font-family: -apple-system;
+    color: black;
+}
+h1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}

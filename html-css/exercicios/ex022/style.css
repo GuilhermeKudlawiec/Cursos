@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-color: #0b2516;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+header{
+    background-color: #227847;
+    padding: 10px;
+    margin: 7px;
+}
+
+nav > a{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 5px;
+    margin: 5px;
+
+}
+main > h1 {
+    color: white;
+    background-color: #227847;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+main > p {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-indent: 20px;
+    font-size: 1.2em;
+}
+
+#notícias {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+
+}
+
+#titulo {
+    margin: 10px;
+    padding: 3px;
+    font-size: 2em;
+    background-color: #227847;
+    color: white;
+    text-align: center;
+}
+
+#notícias > h2 {
+    color: black;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: -5px;
+    background-color: white;
+}
+
+#notícias > p {
+    background-color: white;
+    color: black;
+    text-indent: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+#filmes > h1 {
+    background-color: #227847;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#filmes > p {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+footer{
+    font-size: 1.2em;
+    margin: -10px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+

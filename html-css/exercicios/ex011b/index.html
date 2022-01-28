@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+</head>
+
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Abaixo você ira ter um reprodutor de áudio</p>
+    <audio src="De Nada (FUNK REMIX) [prod. Luanzera](MP3_160K).mp3" controls autoplay preload="none"></audio> <!--Só apareceu o áudio com o parâmetro controls-->
+    
+    <p>Abaixo você terá outro reprodutor de áudio</p>
+    <audio controls autoplay preload="metadata" loop>
+        <source src="De Nada (FUNK REMIX) [prod. Luanzera](MP3_160K).mp3" type="audio/mpeg">
+        <source src="De Nada (FUNK REMIX) [prod. Luanzera](MP3_160K).mp3" type="audio/wav">
+        <source src="De Nada (FUNK REMIX) [prod. Luanzera](MP3_160K).mp3" type="audio/ogg">
+        <p>Não foi possível reproduzir áudio, que triste...</p>
+    </audio>
+
+    <!--A ordem importa, se o primeiro não for reproduzido ele pulará para o próximo!-->
+
+    <!--Dá para por até uma mensagem de erro no final, caso o navegador não consiga reproduzir nenhum áudio ele irá mostrar a imagem na tela-->
+
+
+
+
+</body>
+</html>

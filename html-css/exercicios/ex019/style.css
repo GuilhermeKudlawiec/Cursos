@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #35A150;
+}
+
+h1{
+    text-align: center;
+}
+
+#principal{
+    color: #4BE070;;
+}
+
+h2{
+    color: #42C763;
+    text-align: right;
+    background-color: #206130;
+}
+
+.niveldois{
+    text-align: center;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#modp{
+    background-color: #42C763;
+}

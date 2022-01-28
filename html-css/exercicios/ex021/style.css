@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+h2 {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+    /*A ordem importa*/
+
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: darkred;
+    
+    /*A ordem importa*/
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkblue;
+
+    /*A ordem importa*/
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+/* h2 {
+        margin-right: 5px;
+        margin-top: 35px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        border-style: solid;
+        border-width: 20px;
+        border-color: #00bcd4;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        
+        Valores alterados no DevTools
+    }
+*/   
+    
+    text-align: center;
+}
+
+#Shorthand {
+
+    margin: 10px 10px 10px 10px;
+
+    /* top, right, bottom e left */
+
+    /*
+        Valores todos iguais! 
+        Simplificando: margin: 10px;
+    */
+
+    outline: 20px solid darkred;
+
+    /* width, style e color*/
+    
+    border: 10px solid darkgreen;
+
+    /*top, right, bottom e left*/
+
+    /*
+        Valores iguais para top e bottom,
+        valores iguais para right e left,
+        simplificando: border: 10px 5px;
+    */
+
+    padding: 10px 5px 10px 5px;
+
+    /*top, right, bottom e left*/
+
+    /*
+    Valores iguais para top e bottom,
+    valores iguais para right e left,
+    simplificando: border: 10px 5px;
+    */
+}
+
+    /*
+        margin: 25px 5px 10px 5px;
+        outline: 5px solid darkred;
+        border: 10px solid darkgreen;
+        padding: 10px 5px 10px 5px;
+    */
+
+p{ margin: 30px;
+
+}

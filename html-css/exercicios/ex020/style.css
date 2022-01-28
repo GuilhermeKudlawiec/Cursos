@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited{
+    color: darkred;
+
+}
+a:hover{ 
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+a::after{
+    content: ' [link] ';
+    color: lightcoral;
+}
+

@@ -1,0 +1,19 @@
+@import "UTF-8";
+
+@font-face {
+    font-family: 'fontbaixada';
+    src: url(fonts/halloweek.ttf)
+    format('truetype');
+    font-weight: normal;
+}
+*{
+    text-align: justify;
+}
+h1{
+    font-family: 'fontbaixada';
+    font-size: 4em;
+}
+p{
+    font-family: monospace;
+    font-size: 2em;
+}

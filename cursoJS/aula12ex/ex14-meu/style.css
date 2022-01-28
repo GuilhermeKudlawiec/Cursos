@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(169, 235, 212);
+    font: normal 1.2em Arial;
+}
+
+header {
+    padding: 20px;
+}
+
+header > h1 {
+    color: rgb(144, 105, 9);
+    text-align: center;
+}
+
+section {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.115);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+}
+
+section > p,input, img {
+    margin-top: 10px;
+}
+
+section > img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.265);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
