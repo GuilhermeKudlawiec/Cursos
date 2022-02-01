@@ -1,3 +1,5 @@
+
+
 let num = document.getElementById("num")
 let lista = document.getElementById("lista")
 let res = document.getElementById("res")
