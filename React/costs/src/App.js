@@ -6,6 +6,7 @@ import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import NewProject from './components/pages/NewProject';
+import Projects from './components/pages/Projects';
 
 /*======*/
 
@@ -18,12 +19,13 @@ function App() {
     <div className="App">
       <Router>
         <NavBar/>
-        <Container customClass='min-height'>
+        <Container customClass="min_height">
           <Routes>
             <Route path="/company" element={ <Company /> } ></Route>
             <Route path="/contact" element={ <Contact /> } ></Route>
             <Route exact path="/" element={ <Home /> } ></Route>
             <Route path="/newproject" element={ <NewProject /> } ></Route>
+            <Route path="/projects" element={ <Projects /> } ></Route>
           </Routes>
         </Container>
         <Footer/>
