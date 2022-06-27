@@ -1,19 +1,19 @@
-.menu-link {
+.menu__link {
     text-decoration: none;
     color: #808080;
     margin: 0 1.25rem;
     text-transform: lowercase;
 }
 
-.menu-item:last-child .menu-link {
+.menu__item:last-child .menu__link {
     margin-right: 0;
 }
 
-.menu-link:hover {
+.menu__link:hover {
     text-decoration: underline;
 }
 
-.menu-link.ativo {
+.menu__link.ativo {
     color: #333333;
     font-weight: bold;
 }
