@@ -1,6 +1,6 @@
 # arquitetura Css
 
-O que eu aprendi e desenvolvi é esplicado aqui:
+O que eu aprendi e desenvolvi é explicado aqui:
 
 https://github.com/GuilhermeKudlawiec/god-of-war-ragnarok/blob/main/README.md
 
